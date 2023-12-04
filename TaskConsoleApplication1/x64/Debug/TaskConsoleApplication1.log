@@ -1,0 +1,34 @@
+﻿  TaskConsoleApplication1.cpp
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(72,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(87,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(105,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(127,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(138,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(144,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(163,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(178,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(192,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Variable.cpp
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(72,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(87,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(105,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(127,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(138,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(144,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(163,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(178,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\Variable.cpp(192,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+Variable.obj : error LNK2005: "void __cdecl variableTask10(void)" (?variableTask10@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask11(void)" (?variableTask11@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask12(void)" (?variableTask12@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask1(void)" (?variableTask1@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask2(void)" (?variableTask2@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask3(void)" (?variableTask3@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask4(void)" (?variableTask4@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask5(void)" (?variableTask5@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask6(void)" (?variableTask6@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask7(void)" (?variableTask7@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask8(void)" (?variableTask8@@YAXXZ) already defined in TaskConsoleApplication1.obj
+Variable.obj : error LNK2005: "void __cdecl variableTask9(void)" (?variableTask9@@YAXXZ) already defined in TaskConsoleApplication1.obj
+C:\Filip GC 3\Aplikacje-dekstopowe-i-mobilne\TaskConsoleApplication1\x64\Debug\TaskConsoleApplication1.exe : fatal error LNK1169: one or more multiply defined symbols found

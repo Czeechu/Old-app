@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -7,17 +8,17 @@ using namespace std;
 * 
 * 
 * 
-* Napisz program, który poprosi u¿ytkownika o podanie promienia ko³a i obliczy pole tego ko³a, wyœwietlaj¹c wynik.
-* Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci podstawy a, podstawy b i wysokoœci h trapezu, a nastêpnie obliczy pole tego trapezu, wyœwietlaj¹c wynik.
-* Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci krawêdzi szeœcianu i obliczy jego objêtoœæ, wyœwietlaj¹c wynik.
-* Napisz program, który poprosi u¿ytkownika o podanie temperatury w stopniach Celsiusza, a nastêpnie przeliczy j¹ na stopnie Fahrenheita i wyœwietli wynik.
-* Napisz program, który konwertuje wprowadzon¹ kwotê w jednej walucie na inn¹, korzystaj¹c z okreœlonego kursu wymiany.
+* 
+* 
+* 
+* 
+* 
 *
 * 
 * 
-* Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb ca³kowitych. Nastêpnie wykona operacje (+, -, *, /) i wyœwietli wyniki.
-* Napisz program, który poprosi u¿ytkownika o podanie liczby sekund i przeliczy je na godziny i minuty, wyœwietlaj¹c wynik.
-* Napisz program, który poprosi u¿ytkownika o podanie wspó³rzêdnych (x1, y1) i (x2, y2) dwóch punktów w uk³adzie kartezjañskim, a nastêpnie obliczy odleg³oœæ miêdzy nimi, wyœwietlaj¹c wynik.
+* 
+* 
+* 
 */
 
 
@@ -53,7 +54,7 @@ void variableTask3()
 	cout << "Wprowadz dlugosc boku a: ";
 	cin >> a;
 	cout << "Wprowadz dlugosc boku b: ";
-	cin >> a;
+	cin >> b;
 
 	cout << a * b << "Pole prostokata: ";
 }
@@ -127,4 +128,154 @@ void variableTask7()
 	cout << "Srednia wazona: " << amount;
 
 
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie promienia ko³a i obliczy pole tego ko³a, wyœwietlaj¹c wynik.
+
+void variableTask8()
+{
+	float r;
+	float pi = 3.14;
+	int amount = 0;
+
+	cout << "Podaj promieñ: ";
+	cin >> r;
+
+	amount = pi * pow(r, 2.0);
+
+	cout << "Wynik: " << amount;
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci podstawy a, podstawy b i wysokoœci h trapezu, a nastêpnie obliczy pole tego trapezu, wyœwietlaj¹c wynik.
+
+void variableTask9()
+{
+	float a, b, h;
+	int amount = 0;
+	
+	cout << "Wprowad¿ podstawe a: ";
+	cin >> a;
+	cout << "Wprowad¿ podstawe b: ";
+	cin >> b;
+	cout << "Wprowad¿ wysokosc h: ";
+	cin >> h;
+	
+	amount = ((a + b) * h) / 2;
+
+	cout << "Wynik: " << amount;
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie d³ugoœci krawêdzi szeœcianu i obliczy jego objêtoœæ, wyœwietlaj¹c wynik.
+
+void variableTask10()
+{
+	float a;
+	int v = 0;
+
+	cout << "Podaj dlugosc szescianu: ";
+	cin >> a;
+
+	v = a * a * a;
+
+	cout << "Wynik: " << v;
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie temperatury w stopniach Celsiusza, a nastêpnie przeliczy j¹ na stopnie Fahrenheita i wyœwietli wynik.
+
+void variableTask11()
+{
+	float c;
+	float f;
+	cout << " Podaj temperature w celcjuszach: ";
+	cin >> c;
+	cout << endl;
+	f = (c * (9.0 / 5)) + 32;
+	cout << " Temperatura w farenheitach wynosi: " << f << endl;
+	cout << endl;
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb ca³kowitych. Nastêpnie wykona operacje (+, -, *, /) i wyœwietli wyniki.
+
+void variableTask12()
+{
+	int a, b, amount = 0;
+
+	cout << "Podaj liczbe a: ";
+	cin >> a;
+	cout << "Podaj liczbe b: ";
+	cin >> b;
+
+	amount = a + b;
+	amount = a - b;
+	amount = a * b;
+	amount = a / b;
+
+	cout << "Wynik: " << amount;
+
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie liczby sekund i przeliczy je na godziny i minuty, wyœwietlaj¹c wynik.
+
+void variableTask13()
+{
+	cout << "Podaj liczbe sekund: ";
+	long long sekundy;
+	cin >> sekundy;
+	const int minuta = 60;
+	const int godzina = (60 * 60);
+	const int dzien = (24 * 60 * 60);
+	int LiczbaGodzin = (sekundy % dzien) / (60 * 60);
+	int LiczbaMinut = (sekundy % godzina) / 60;
+	int LiczbaSekund = sekundy % minuta;
+	cout << sekundy << " sekund = " << LiczbaGodzin << " godzin"
+		<< LiczbaMinut << " minut " << LiczbaSekund << " sekund";
+
+	cin.get();
+	cin.get();
+}
+
+//Napisz program, który konwertuje wprowadzon¹ kwotê w jednej walucie na inn¹, korzystaj¹c z okreœlonego kursu wymiany.
+
+void variableTask14()
+{
+	double kurs = 4.50;
+	double kwota;
+
+	string inputCurrency, startingCurrency;
+
+	cout << "Podaj kwotê: ";
+	cin >> kwota;
+
+	cout << "Podaj walute wejsciowa np. USD: ";
+	cin >> inputCurrency;
+	cout << "Podaj walute wyjsciowa np. EUR: ";
+	cin >> startingCurrency;
+
+	if (inputCurrency == "PLN" && startingCurrency == "USD")
+	{
+		kwota /= kurs;
+	}
+	else if (inputCurrency == "USD" && startingCurrency == "PLN")
+	{
+		kwota *= kurs;
+	}
+
+	cout << "Wynik: " << kwota << " " << startingCurrency << endl;
+}
+
+//Napisz program, który poprosi u¿ytkownika o podanie wspó³rzêdnych (x1, y1) i (x2, y2) dwóch punktów w uk³adzie kartezjañskim, a nastêpnie obliczy odleg³oœæ miêdzy nimi, wyœwietlaj¹c wynik.
+
+void variableTask15()
+{
+	double x1, x2, y1, y2;
+	double odleglosc = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+
+	cout << "Podaj wspolrzedne punktu P1 (x1, y1): ";
+	cin >> x1 >> y1;
+	cout << "Podaj wspolrzedne punktu P1 (x2, y2): ";
+	cin >> x2 >> y2;
+
+	cout << "Odleglosc miedzy punktami P1(" << x1 << ", " << y1 << ") i P2" << x2 << ", " << y2 << ") wynosi: " << odleglosc << endl;
+
+	
 }
