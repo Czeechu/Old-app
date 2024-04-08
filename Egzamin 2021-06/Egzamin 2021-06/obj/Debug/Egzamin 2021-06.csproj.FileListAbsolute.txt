@@ -1,0 +1,10 @@
+C:\Filip Gos Czech\Aplikacje desktopowe\Egzamin 2021-06\Egzamin 2021-06\bin\Debug\Egzamin 2021-06.exe.config
+C:\Filip Gos Czech\Aplikacje desktopowe\Egzamin 2021-06\Egzamin 2021-06\bin\Debug\Egzamin 2021-06.exe
+C:\Filip Gos Czech\Aplikacje desktopowe\Egzamin 2021-06\Egzamin 2021-06\bin\Debug\Egzamin 2021-06.pdb
+C:\Filip Gos Czech\Aplikacje desktopowe\Egzamin 2021-06\Egzamin 2021-06\obj\Debug\Egzamin 2021-06.csproj.AssemblyReference.cache
+C:\Filip Gos Czech\Aplikacje desktopowe\Egzamin 2021-06\Egzamin 2021-06\obj\Debug\Egzamin_2021_06.Form1.resources
+C:\Filip Gos Czech\Aplikacje desktopowe\Egzamin 2021-06\Egzamin 2021-06\obj\Debug\Egzamin_2021_06.Properties.Resources.resources
+C:\Filip Gos Czech\Aplikacje desktopowe\Egzamin 2021-06\Egzamin 2021-06\obj\Debug\Egzamin 2021-06.csproj.GenerateResource.cache
+C:\Filip Gos Czech\Aplikacje desktopowe\Egzamin 2021-06\Egzamin 2021-06\obj\Debug\Egzamin 2021-06.csproj.CoreCompileInputs.cache
+C:\Filip Gos Czech\Aplikacje desktopowe\Egzamin 2021-06\Egzamin 2021-06\obj\Debug\Egzamin 2021-06.exe
+C:\Filip Gos Czech\Aplikacje desktopowe\Egzamin 2021-06\Egzamin 2021-06\obj\Debug\Egzamin 2021-06.pdb
