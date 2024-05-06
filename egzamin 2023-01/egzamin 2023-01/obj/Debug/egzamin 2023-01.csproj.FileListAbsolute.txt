@@ -1,0 +1,10 @@
+C:\Filip Gos Czech\Aplikacje desktopowe\egzamin 2023-01\egzamin 2023-01\obj\Debug\egzamin 2023-01.csproj.AssemblyReference.cache
+C:\Filip Gos Czech\Aplikacje desktopowe\egzamin 2023-01\egzamin 2023-01\obj\Debug\egzamin_2023_01.Form1.resources
+C:\Filip Gos Czech\Aplikacje desktopowe\egzamin 2023-01\egzamin 2023-01\obj\Debug\egzamin_2023_01.Properties.Resources.resources
+C:\Filip Gos Czech\Aplikacje desktopowe\egzamin 2023-01\egzamin 2023-01\obj\Debug\egzamin 2023-01.csproj.GenerateResource.cache
+C:\Filip Gos Czech\Aplikacje desktopowe\egzamin 2023-01\egzamin 2023-01\obj\Debug\egzamin 2023-01.csproj.CoreCompileInputs.cache
+C:\Filip Gos Czech\Aplikacje desktopowe\egzamin 2023-01\egzamin 2023-01\bin\Debug\egzamin 2023-01.exe.config
+C:\Filip Gos Czech\Aplikacje desktopowe\egzamin 2023-01\egzamin 2023-01\bin\Debug\egzamin 2023-01.exe
+C:\Filip Gos Czech\Aplikacje desktopowe\egzamin 2023-01\egzamin 2023-01\bin\Debug\egzamin 2023-01.pdb
+C:\Filip Gos Czech\Aplikacje desktopowe\egzamin 2023-01\egzamin 2023-01\obj\Debug\egzamin 2023-01.exe
+C:\Filip Gos Czech\Aplikacje desktopowe\egzamin 2023-01\egzamin 2023-01\obj\Debug\egzamin 2023-01.pdb
